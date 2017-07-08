@@ -1,0 +1,146 @@
+/* Always set the map height explicitly to define the size of the div
+  * element that contains the map. */
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  background-color: #9000FD;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Dropdown button */
+.dropdown-menu > li > ul {
+  list-style: none;
+}
+
+.dropdown-menu {
+  margin: 7px 0 0;
+}
+
+.navbar-bevy {
+  background-color: #E3BCFF;
+  color: #000;
+}
+
+a {
+  color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+/* Highlight Event and When */
+.eventCat:hover, .eventWhen:hover {
+  background-color: #E3BCFF;
+}
+
+/* Button Group*/
+.btn-group {
+  margin-left: 20px;
+  color: #9000FD;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* Button */
+.btn-primary {
+    color: #9000FD;
+    background-color: #fff;
+    border-color: #fff;
+    background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
+}
+
+.btn-signin {
+  background-color: #9000FD;
+  color: #fff;
+  border-color: #9000FD;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #9000FD;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary:active {
+  color: #9000FD;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:focus {
+    background-color: #fff;
+    background-position: 0 -15px;
+    color: #9000DF;
+}
+
+.btn-primary:hover {
+  color: #9000FD;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+footer {
+  color: #fff;
+  background-color: #9000FD;
+}
+
+/*Inside Box*/
+#login-dp, #search-dp, #when-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+
+#search-dp {
+  min-width: 350px;
+  color: #000;
+  padding: 10px;
+}
+
+#login-dp .help-block{
+    font-size:12px    
+}
+
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+
+#login-dp .social-buttons a{
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .navbar-form {
+    margin-left: 4px;
+  }
+}
