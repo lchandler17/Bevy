@@ -61,6 +61,7 @@ $(document).ready(function(){
 		function searchEventful() {
 
 			var searchURL = "https://api.eventful.com/json/events/search?q=" + searchEventCat + "&l=" + returnedZip + "&within=" + searchRadius + "&units=miles&t=" + searchTime + "&t=future&include=categories&app_key=2QPvTQjtvQ5DsFpL";
+			console.log(searchURL);
 
 			//function to place markers
 			function setMapOnAll(map) {
